@@ -9,6 +9,7 @@ import { Routes, Route } from 'react-router-dom'
 import CarritoCompras from './Tienda'
 import EcommerceTotal from './EcommerceTotal'
 
+
 function App() {
   return (
     <div>
@@ -21,7 +22,7 @@ function App() {
         <Route path='/productos/:id' element={<ProductoDetalle />} />
         
       </Routes>
-      <EcommerceTotal/>
+      
 
       
       

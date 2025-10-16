@@ -21,7 +21,7 @@ function ListaProductos({ agregarAlCarrito }) {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("https://68d482e3214be68f8c696ae2.mockapi.io/api/productos")
+    fetch("https://68d5b658e29051d1c0af60c9.mockapi.io/api/v1/Apilador")
       .then((respuesta) => respuesta.json())
       .then((datos) => {
         setProductos(datos);
